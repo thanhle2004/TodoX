@@ -133,7 +133,10 @@ const HomePage = () => {
           </div>
 
           {/* Chân Trang */}
-          <Footer/>
+          <Footer
+            activeTasksCount={activeTaskCount}
+            completedTasksCount={completeTaskCount}
+          />
         </div>
       </div>
     </div>

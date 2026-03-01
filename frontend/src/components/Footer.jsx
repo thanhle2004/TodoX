@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer = ({completeTasksCount = 3, activeTasksCount = 1}) => {
+const Footer = ({completeTasksCount, activeTasksCount}) => {
   return (
     <>
       {completeTasksCount + activeTasksCount > 0 && (
